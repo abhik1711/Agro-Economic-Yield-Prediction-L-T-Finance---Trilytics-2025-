@@ -33,7 +33,7 @@ The solution follows a structured machine learning pipeline, as detailed in the 
 
 ### 1\. Data Loading and Preparation
 
-  * The training and test datasets are loaded from the provided Excel file (`LTF Challenge data with dictionary.xlsx`).
+  * The training and test datasets are loaded from the provided Excel file (`Trilytics Dataset.csv`).
   * A preliminary analysis is performed to understand the structure of the data, including the number of features and data types.
 
 ### 2\. Data Cleaning and Preprocessing
@@ -76,16 +76,13 @@ The stacked ensemble model demonstrated strong performance on the validation set
   * **R² Score**: **0.9968**
   * **Accuracy within 10% error**: **99.55%**
 
-The final predictions on the test set are saved in the `ltf_final_predictions_stacked_extended.csv` file.
-
------
 
 ## ⚙️ How to Run
 
 To reproduce the results, follow these steps:
 
 1.  Ensure you have a Python environment with the required dependencies installed (see below).
-2.  Place the `LTF Challenge data with dictionary.xlsx` file in the same directory as the `Trilytics.ipynb` notebook.
+2.  Place the `Trilytics Dataset.csv` file in the same directory as the `Trilytics.ipynb` notebook.
 3.  Open and run the `Trilytics.ipynb` notebook in a Jupyter environment like Jupyter Lab or Google Colab.
 
 The notebook will handle all the steps from data loading to generating the final prediction file.
